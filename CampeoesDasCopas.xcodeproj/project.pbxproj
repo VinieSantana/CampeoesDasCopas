@@ -7,33 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		574ACA20237739FE000ADACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ACA1F237739FE000ADACB /* AppDelegate.swift */; };
-		574ACA22237739FE000ADACB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ACA21237739FE000ADACB /* SceneDelegate.swift */; };
-		574ACA27237739FE000ADACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574ACA25237739FE000ADACB /* Main.storyboard */; };
-		574ACA29237739FF000ADACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574ACA28237739FF000ADACB /* Assets.xcassets */; };
-		574ACA2C237739FF000ADACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574ACA2A237739FF000ADACB /* LaunchScreen.storyboard */; };
-		574ACA3723773BD7000ADACB /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 574ACA3623773BD7000ADACB /* winners.json */; };
-		574ACA3A23774083000ADACB /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ACA3923774083000ADACB /* WinnersTableViewController.swift */; };
-		574ACA3F23774424000ADACB /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ACA3E23774424000ADACB /* WorldCupViewController.swift */; };
-		574ACA42237744D1000ADACB /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574ACA41237744D1000ADACB /* WorldCup.swift */; };
+		8120FF85240DDC8F00B8FECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120FF84240DDC8F00B8FECE /* AppDelegate.swift */; };
+		8120FF87240DDC8F00B8FECE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120FF86240DDC8F00B8FECE /* SceneDelegate.swift */; };
+		8120FF8C240DDC8F00B8FECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8120FF8A240DDC8F00B8FECE /* Main.storyboard */; };
+		8120FF8E240DDC9100B8FECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8120FF8D240DDC9100B8FECE /* Assets.xcassets */; };
+		8120FF91240DDC9100B8FECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8120FF8F240DDC9100B8FECE /* LaunchScreen.storyboard */; };
+		817682A8240DF2F900EB677A /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817682A7240DF2F900EB677A /* WorldCupTableViewCell.swift */; };
+		81FBACC9240DDFA6006864B1 /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBACC8240DDFA6006864B1 /* WorldCupViewController.swift */; };
+		81FBACCB240DDFB5006864B1 /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBACCA240DDFB5006864B1 /* WinnersTableViewController.swift */; };
+		81FBACCF240DE0F5006864B1 /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBACCE240DE0F5006864B1 /* WorldCup.swift */; };
+		81FBACD8240DE33A006864B1 /* winners.json in Resources */ = {isa = PBXBuildFile; fileRef = 81FBACD7240DE33A006864B1 /* winners.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		574ACA1C237739FE000ADACB /* CampeoesDasCopas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampeoesDasCopas.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		574ACA1F237739FE000ADACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		574ACA21237739FE000ADACB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		574ACA26237739FE000ADACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		574ACA28237739FF000ADACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		574ACA2B237739FF000ADACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		574ACA2D237739FF000ADACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		574ACA3623773BD7000ADACB /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winners.json; sourceTree = "<group>"; };
-		574ACA3923774083000ADACB /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
-		574ACA3E23774424000ADACB /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
-		574ACA41237744D1000ADACB /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
+		8120FF81240DDC8F00B8FECE /* CampeoesDasCopas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampeoesDasCopas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8120FF84240DDC8F00B8FECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8120FF86240DDC8F00B8FECE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8120FF8B240DDC8F00B8FECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8120FF8D240DDC9100B8FECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8120FF90240DDC9100B8FECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8120FF92240DDC9100B8FECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		817682A7240DF2F900EB677A /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
+		81FBACC8240DDFA6006864B1 /* WorldCupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
+		81FBACCA240DDFB5006864B1 /* WinnersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
+		81FBACCE240DE0F5006864B1 /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
+		81FBACD7240DE33A006864B1 /* winners.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = winners.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		574ACA19237739FE000ADACB /* Frameworks */ = {
+		8120FF7E240DDC8F00B8FECE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,81 +45,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		574ACA13237739FE000ADACB = {
+		8120FF78240DDC8F00B8FECE = {
 			isa = PBXGroup;
 			children = (
-				574ACA1E237739FE000ADACB /* CampeoesDasCopas */,
-				574ACA1D237739FE000ADACB /* Products */,
+				8120FF83240DDC8F00B8FECE /* CampeoesDasCopas */,
+				8120FF82240DDC8F00B8FECE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		574ACA1D237739FE000ADACB /* Products */ = {
+		8120FF82240DDC8F00B8FECE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				574ACA1C237739FE000ADACB /* CampeoesDasCopas.app */,
+				8120FF81240DDC8F00B8FECE /* CampeoesDasCopas.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		574ACA1E237739FE000ADACB /* CampeoesDasCopas */ = {
+		8120FF83240DDC8F00B8FECE /* CampeoesDasCopas */ = {
 			isa = PBXGroup;
 			children = (
-				574ACA40237744A1000ADACB /* Models */,
-				574ACA3B23774097000ADACB /* Controller */,
-				574ACA3823773FBA000ADACB /* Views */,
-				574ACA3323773B88000ADACB /* files */,
-				574ACA1F237739FE000ADACB /* AppDelegate.swift */,
-				574ACA21237739FE000ADACB /* SceneDelegate.swift */,
-				574ACA28237739FF000ADACB /* Assets.xcassets */,
-				574ACA2D237739FF000ADACB /* Info.plist */,
+				81FBACD9240DE342006864B1 /* Files */,
+				8120FF84240DDC8F00B8FECE /* AppDelegate.swift */,
+				8120FF86240DDC8F00B8FECE /* SceneDelegate.swift */,
+				8120FF99240DDD0D00B8FECE /* Controllers */,
+				8120FF98240DDCED00B8FECE /* Views */,
+				8120FF8D240DDC9100B8FECE /* Assets.xcassets */,
+				8120FF92240DDC9100B8FECE /* Info.plist */,
+				81FBACD0240DE0FA006864B1 /* Models */,
+				817682A9240DF30B00EB677A /* Cells */,
 			);
 			path = CampeoesDasCopas;
 			sourceTree = "<group>";
 		};
-		574ACA3323773B88000ADACB /* files */ = {
+		8120FF98240DDCED00B8FECE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				574ACA3623773BD7000ADACB /* winners.json */,
-			);
-			path = files;
-			sourceTree = "<group>";
-		};
-		574ACA3823773FBA000ADACB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				574ACA25237739FE000ADACB /* Main.storyboard */,
-				574ACA2A237739FF000ADACB /* LaunchScreen.storyboard */,
+				8120FF8A240DDC8F00B8FECE /* Main.storyboard */,
+				8120FF8F240DDC9100B8FECE /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		574ACA3B23774097000ADACB /* Controller */ = {
+		8120FF99240DDD0D00B8FECE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				574ACA3923774083000ADACB /* WinnersTableViewController.swift */,
-				574ACA3E23774424000ADACB /* WorldCupViewController.swift */,
+				81FBACCA240DDFB5006864B1 /* WinnersTableViewController.swift */,
+				81FBACC8240DDFA6006864B1 /* WorldCupViewController.swift */,
 			);
-			path = Controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		574ACA40237744A1000ADACB /* Models */ = {
+		817682A9240DF30B00EB677A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				574ACA41237744D1000ADACB /* WorldCup.swift */,
+				817682A7240DF2F900EB677A /* WorldCupTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		81FBACD0240DE0FA006864B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81FBACCE240DE0F5006864B1 /* WorldCup.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		81FBACD9240DE342006864B1 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				81FBACD7240DE33A006864B1 /* winners.json */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		574ACA1B237739FE000ADACB /* CampeoesDasCopas */ = {
+		8120FF80240DDC8F00B8FECE /* CampeoesDasCopas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 574ACA30237739FF000ADACB /* Build configuration list for PBXNativeTarget "CampeoesDasCopas" */;
+			buildConfigurationList = 8120FF95240DDC9100B8FECE /* Build configuration list for PBXNativeTarget "CampeoesDasCopas" */;
 			buildPhases = (
-				574ACA18237739FE000ADACB /* Sources */,
-				574ACA19237739FE000ADACB /* Frameworks */,
-				574ACA1A237739FE000ADACB /* Resources */,
+				8120FF7D240DDC8F00B8FECE /* Sources */,
+				8120FF7E240DDC8F00B8FECE /* Frameworks */,
+				8120FF7F240DDC8F00B8FECE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -125,25 +136,25 @@
 			);
 			name = CampeoesDasCopas;
 			productName = CampeoesDasCopas;
-			productReference = 574ACA1C237739FE000ADACB /* CampeoesDasCopas.app */;
+			productReference = 8120FF81240DDC8F00B8FECE /* CampeoesDasCopas.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		574ACA14237739FE000ADACB /* Project object */ = {
+		8120FF79240DDC8F00B8FECE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
-				ORGANIZATIONNAME = Aluno;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Vinicius;
 				TargetAttributes = {
-					574ACA1B237739FE000ADACB = {
-						CreatedOnToolsVersion = 11.2;
+					8120FF80240DDC8F00B8FECE = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 574ACA17237739FE000ADACB /* Build configuration list for PBXProject "CampeoesDasCopas" */;
+			buildConfigurationList = 8120FF7C240DDC8F00B8FECE /* Build configuration list for PBXProject "CampeoesDasCopas" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,59 +162,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 574ACA13237739FE000ADACB;
-			productRefGroup = 574ACA1D237739FE000ADACB /* Products */;
+			mainGroup = 8120FF78240DDC8F00B8FECE;
+			productRefGroup = 8120FF82240DDC8F00B8FECE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				574ACA1B237739FE000ADACB /* CampeoesDasCopas */,
+				8120FF80240DDC8F00B8FECE /* CampeoesDasCopas */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		574ACA1A237739FE000ADACB /* Resources */ = {
+		8120FF7F240DDC8F00B8FECE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574ACA2C237739FF000ADACB /* LaunchScreen.storyboard in Resources */,
-				574ACA29237739FF000ADACB /* Assets.xcassets in Resources */,
-				574ACA3723773BD7000ADACB /* winners.json in Resources */,
-				574ACA27237739FE000ADACB /* Main.storyboard in Resources */,
+				8120FF91240DDC9100B8FECE /* LaunchScreen.storyboard in Resources */,
+				8120FF8E240DDC9100B8FECE /* Assets.xcassets in Resources */,
+				81FBACD8240DE33A006864B1 /* winners.json in Resources */,
+				8120FF8C240DDC8F00B8FECE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		574ACA18237739FE000ADACB /* Sources */ = {
+		8120FF7D240DDC8F00B8FECE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574ACA3A23774083000ADACB /* WinnersTableViewController.swift in Sources */,
-				574ACA20237739FE000ADACB /* AppDelegate.swift in Sources */,
-				574ACA42237744D1000ADACB /* WorldCup.swift in Sources */,
-				574ACA3F23774424000ADACB /* WorldCupViewController.swift in Sources */,
-				574ACA22237739FE000ADACB /* SceneDelegate.swift in Sources */,
+				81FBACCB240DDFB5006864B1 /* WinnersTableViewController.swift in Sources */,
+				8120FF85240DDC8F00B8FECE /* AppDelegate.swift in Sources */,
+				81FBACCF240DE0F5006864B1 /* WorldCup.swift in Sources */,
+				817682A8240DF2F900EB677A /* WorldCupTableViewCell.swift in Sources */,
+				8120FF87240DDC8F00B8FECE /* SceneDelegate.swift in Sources */,
+				81FBACC9240DDFA6006864B1 /* WorldCupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		574ACA25237739FE000ADACB /* Main.storyboard */ = {
+		8120FF8A240DDC8F00B8FECE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				574ACA26237739FE000ADACB /* Base */,
+				8120FF8B240DDC8F00B8FECE /* Base */,
 			);
 			name = Main.storyboard;
-			path = /Users/aluno/Desktop/CampeoesDasCopas/CampeoesDasCopas/Views;
-			sourceTree = "<absolute>";
+			sourceTree = "<group>";
 		};
-		574ACA2A237739FF000ADACB /* LaunchScreen.storyboard */ = {
+		8120FF8F240DDC9100B8FECE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				574ACA2B237739FF000ADACB /* Base */,
+				8120FF90240DDC9100B8FECE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -211,7 +222,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		574ACA2E237739FF000ADACB /* Debug */ = {
+		8120FF93240DDC9100B8FECE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +282,7 @@
 			};
 			name = Debug;
 		};
-		574ACA2F237739FF000ADACB /* Release */ = {
+		8120FF94240DDC9100B8FECE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,7 +336,7 @@
 			};
 			name = Release;
 		};
-		574ACA31237739FF000ADACB /* Debug */ = {
+		8120FF96240DDC9100B8FECE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -335,14 +346,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = school.cesar.iot.ios.CampeoesDasCopas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniesantana.CampeoesDasCopas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		574ACA32237739FF000ADACB /* Release */ = {
+		8120FF97240DDC9100B8FECE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -352,7 +363,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = school.cesar.iot.ios.CampeoesDasCopas;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viniesantana.CampeoesDasCopas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -362,25 +373,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		574ACA17237739FE000ADACB /* Build configuration list for PBXProject "CampeoesDasCopas" */ = {
+		8120FF7C240DDC8F00B8FECE /* Build configuration list for PBXProject "CampeoesDasCopas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574ACA2E237739FF000ADACB /* Debug */,
-				574ACA2F237739FF000ADACB /* Release */,
+				8120FF93240DDC9100B8FECE /* Debug */,
+				8120FF94240DDC9100B8FECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		574ACA30237739FF000ADACB /* Build configuration list for PBXNativeTarget "CampeoesDasCopas" */ = {
+		8120FF95240DDC9100B8FECE /* Build configuration list for PBXNativeTarget "CampeoesDasCopas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574ACA31237739FF000ADACB /* Debug */,
-				574ACA32237739FF000ADACB /* Release */,
+				8120FF96240DDC9100B8FECE /* Debug */,
+				8120FF97240DDC9100B8FECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 574ACA14237739FE000ADACB /* Project object */;
+	rootObject = 8120FF79240DDC8F00B8FECE /* Project object */;
 }
