@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  CampeoesDasCopas
 //
-//  Created by aluno on 09/11/19.
-//  Copyright © 2019 Aluno. All rights reserved.
+//  Created by Vinicius on 02/03/20.
+//  Copyright © 2020 Vinicius. All rights reserved.
 //
 
 import UIKit
