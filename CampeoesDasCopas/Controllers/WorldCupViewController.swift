@@ -22,7 +22,7 @@ class WorldCupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "WorldCup \(worldCup.year)"
+        title = "Copa \(worldCup.year)"
         
         ivWinner.image = UIImage(named: worldCup.winner)
         lbWinner.text = worldCup.winner
